@@ -1,4 +1,4 @@
-go-novarand(from algorand)
+novarand(from algorand)
 ====================
 Novarand's official implementation in Go.
 
@@ -31,13 +31,13 @@ requirements.
 
 Initial environment setup:
 ```bash
-git clone https://github.com/Orca18/go-novarand
-cd go-novarand
+git clone https://github.com/lrb9105/novarand
+cd novarand
 ./scripts/configure_dev.sh
 ./scripts/buildtools/install_buildtools.sh
 ```
 
-At this point, you are ready to build go-novarand. We use `make` and have a
+At this point, you are ready to build novarand. We use `make` and have a
 number of targets to automate common tasks.
 
 #### build
@@ -93,7 +93,7 @@ Please refer to our [CONTRIBUTING](CONTRIBUTING.md) document.
 
 ## Project Layout ##
 
-`go-novarand` is split into various subpackages.
+`novarand` is split into various subpackages.
 
 The following packages provide core functionality to the `algod` and `kmd`
 daemons, as well as other tools and commands:
