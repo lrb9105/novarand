@@ -1,0 +1,2 @@
+--- PASS: TestAlgodLogsToFile (6.64s)
+ok  	github.com/Orca18/go-novarand/test/e2e-go/cli/algod	6.744s
